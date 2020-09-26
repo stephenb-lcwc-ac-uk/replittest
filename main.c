@@ -21,7 +21,7 @@ printf("what is the inductor value\n");
 scanf("%f",&inductor);
 
 freqDivisor = (freq2-freq1)/10;
-//printf("divisor is %d\n",freqDivisor);
+printf("divisor is %d\n",freqDivisor);
 
     for (i = freq1; i < freq2; i=i+freqDivisor)
     {
